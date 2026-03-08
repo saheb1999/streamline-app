@@ -157,8 +157,6 @@ export default function LandingPage() {
 
         <motion.a
           href="https://streamline-sr.streamlit.app/"
-          target="_blank"
-          rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
@@ -348,8 +346,6 @@ export default function LandingPage() {
           </p>
           <motion.a
             href="https://streamline-sr.streamlit.app/"
-            target="_blank"
-            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="group px-10 py-5 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl font-bold text-xl shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all flex items-center gap-2 mx-auto"
