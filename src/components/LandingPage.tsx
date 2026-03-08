@@ -156,7 +156,7 @@ export default function LandingPage() {
         </motion.p>
 
         <motion.a
-          href="https://your-analytics-app.streamlit.app"
+          href="https://streamline-sr.streamlit.app/"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
@@ -346,14 +346,17 @@ export default function LandingPage() {
           <p className="text-xl text-slate-400 mb-10">
             Join thousands of analysts making data-driven decisions faster
           </p>
-          <motion.button
+          <motion.a
+            href="https://streamline-sr.streamlit.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="group px-10 py-5 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl font-bold text-xl shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all flex items-center gap-2 mx-auto"
           >
-            Start Free Trial
+            Launch Analytics Platform
             <ChevronRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-          </motion.button>
+          </motion.a>
         </motion.div>
       </section>
 
