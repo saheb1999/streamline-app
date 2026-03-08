@@ -166,7 +166,7 @@ export default function LandingPage() {
           whileTap={{ scale: 0.95 }}
           className="group px-8 py-4 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl font-bold text-lg shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all inline-flex items-center gap-2 mx-auto"
         >
-          Enter Platform
+          Get Started Now
           <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </motion.a>
 
@@ -354,7 +354,7 @@ export default function LandingPage() {
             whileTap={{ scale: 0.95 }}
             className="group px-10 py-5 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl font-bold text-xl shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all flex items-center gap-2 mx-auto"
           >
-            Launch Analytics Platform
+            Start Free Trail
             <ChevronRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </motion.a>
         </motion.div>
