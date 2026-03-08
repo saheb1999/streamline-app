@@ -155,17 +155,29 @@ export default function LandingPage() {
           No coding required. Just upload, analyze, and discover.
         </motion.p>
 
-        <motion.button
+        <motion.a
+          href="https://your-analytics-app.streamlit.app"
+          target="_blank"
+          rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="group px-8 py-4 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl font-bold text-lg shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all flex items-center gap-2 mx-auto"
+          className="group px-8 py-4 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl font-bold text-lg shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all inline-flex items-center gap-2 mx-auto"
         >
-          Get Started Now
+          Enter Platform
           <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-        </motion.button>
+        </motion.a>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
+          className="text-slate-400 text-sm mt-4"
+        >
+          ⚡ The analytics platform may take a few seconds to wake up if inactive.
+        </motion.p>
       </section>
 
       <section id="features" className="relative z-10 py-20 px-8 max-w-7xl mx-auto">
